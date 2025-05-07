@@ -1,7 +1,8 @@
 import requests
 import send_email
-topic="tesla"
-api_key = ""
+
+topic = "Topic"  #ex. Tesla, Apple
+api_key = "YourAPIKey" #can get it from https://newsapi.org/
 url = "https://newsapi.org/v2/everything?" \
       f"q={topic}&" \
       "sortBy=publishedAt&" \
