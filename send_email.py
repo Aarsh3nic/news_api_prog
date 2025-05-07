@@ -5,8 +5,8 @@ def send_email_news(news):
     host ="smtp.gmail.com"
     port = 465
 
-    username = "5mindisc@gmail.com"
-    password = os.getenv("PASSforsecondarygmail")  # getting environment variable
+    username = "YourEmail"
+    password = "passwordOfYourAcc"  # os.getenv("PASSforsecondarygmail") can be used to get password from env variable
 
     receiver = "5mindisc@gmail.com"
     context = ssl.create_default_context()
